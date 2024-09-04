@@ -91,10 +91,102 @@ article svg {
 }
 
 
+/*マップ部分SVG*/
+.floor-title{text-align: center;
+    background-color: #9e9a6f;
+}
+
+.maparea{display: flex;}
+
+.button{background-color: #1b3c65;
+    color: #f8e890;
+    margin: 0 auto 4px auto ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 black;
+    padding: 10px;
+    width: 70%; 
+    display: block;
+    cursor: pointer;
+    cursor: #ffffff;
+}
+
+.button:hover{
+background-color: azure;
+color: #1b3c65;
+} 
+
+/*表示されている階を色変え*/
+.click {
+background-color: azure;
+}
+
+
+.mogi{width: 100%;}
+
+img{width: 80%;
+    height: auto;}
+
+
+/*メニューボタンのｃｓｓ*/
+.menu{background-color: #dbdbdb;
+      text-align: center;
+      padding: 2vw;
+      box-shadow: 0 2px 2px 0 black;
+      border-radius: 3px;
+      padding-bottom: 30vh;
+      
+}
+
+.menu a{border: 0px solid #31436e;
+        border-radius: 10px;
+        padding: 4px;
+        padding-left: 6px;
+        padding-right: 6px;
+        background-color: #1b3c65;
+        text-decoration: none;
+        color: #f8e890;
+        display: inline-block;
+        margin-top: 1vw;
+}
+
+.menu a:hover{
+  background-color: azure;
+  color: #1b3c65;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+/*一覧表のｃｓｓ*/
+.tablearea{background-color: #dbdbdb;
+       text-align: center;
+       /*padding-left: 10%;*/
+}
+
+.itiran-btn{border: none;
+            background-color: #019ac6;
+            padding: 5px;
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+            margin-top: 1vw;
+            border-radius: 3px;}
+
+.itiran-btn:hover{background-color: aquamarine;}
+
+.itiran-title{background-color: #019ac6;
+            text-align: center;
+            margin-top: 5vw;
+            width: 50%;}
+
+/*団体一覧へ戻るボタン*/
+html{scroll-behavior: smooth;}
 
 
 
-
-
-
-
+/*フロアごとマップを隠すｃｓｓ*/
+.hidden {
+    display: none;
+  }
